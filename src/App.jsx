@@ -6,7 +6,7 @@ import { Shop } from "./pages/Shop";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-lvh bg-slate-800">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
